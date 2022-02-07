@@ -3,11 +3,7 @@ import MessageView from "./message-view";
 
 class MessageList extends Component {
     state = {
-        message: {
-            from: "Martha",
-            content: "I will be traveling soon",
-            status: "read",
-        },
+        message: "Not an object!",
     };
 
     render() {
